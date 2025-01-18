@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+
+    
+
+    <link href="../static/css/style.css" rel="stylesheet" >
+    
+
+</head>
+
+<body>
+    <!-- <h1>Python Messenger Application</h1> -->
+
+    <div class="chat-container">
+        <div class="chat-header">Chat Room</div>
+        <div class="username-container">
+            <span id="current-username"></span>
+            <input type="text" id="username-input" placeholder="New Username..." >
+            <button id="update-username-button">Update Username</button>
+        </div>
+        <div class="chat-messages" id="chat-messages"></div>
+        <div class="chat-input">
+            <input type="text" id="message-input" placeholder="Type your message ...">
+            <button id="send-button">Send</button>
+        </div>
+        
+
+    </div>
+
+    <script src="https://cdn.socket.io/4.8.1/socket.io.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.js" 
+    integrity="sha512-8BHxHDLsOHx+flIrQ0DrZcea7MkHqRU5GbTHmbdzMRnAaoCIkZ97PqZcXJkKZckMMhqfoeaJE+DNUVuyoQsO3Q==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <script src="../static/js/script.js"></script>
+
+</body>
+</html>
